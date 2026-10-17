@@ -6,7 +6,7 @@
 <script>
 // Konfigurasi publik: isi hanya publishable key (sb_publishable_...), JANGAN secret/service_role.
 const SUPABASE_URL = 'https://jixnkswvapwshprwqkox.supabase.co';
-const SUPABASE_PUBLISHABLE_KEY = 'ISI_PUBLISHABLE_KEY_DI_SINI';
+const SUPABASE_PUBLISHABLE_KEY = sb_publishable_XS8EqiErKwMplA4tzmrfvA_bcoXtZne
 const $=id=>document.getElementById(id);
 const safe=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const validUrl=s=>{try{let u=new URL(s);return ['https:','http:'].includes(u.protocol)?u.href:null}catch{return null}};
